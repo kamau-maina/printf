@@ -44,4 +44,7 @@ Format -This string contains the text to be written to stdout. It may also conta
 
 The format tag prototype is %[flags]
 
+Authors
+   Kamau Maina    
+   Khaikhai01
 
