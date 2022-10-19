@@ -29,5 +29,19 @@ Authorized functions and macros:
              va_copy (man 3 va_copy)
              va_arg (man 3 va_arg)
 
+The format string (Hw the subsequents are accessed)
+	The _printf() however, does not handle:
+			i. Flag characters\n
+			ii. Field width\n
+			iii. Precision\n
+			iv. Length modifiers
+
+Return value
+_printf, upon successful return, returns the number of characters printed excluding the null byte. If an error occurs, it returns -1
+
+Parameters
+Format -This string contains the text to be written to stdout. It may also contain embedded format tags which are required by values specified by subsequent additional argument.
+
+The format tag prototype is %[flags]
 
 
