@@ -46,7 +46,8 @@ Parameters
 
 	The format tag prototype is %[flags]
 
-Authors
+**Authors:**
+
    Kamau Maina    
    Khaikhai01
 
