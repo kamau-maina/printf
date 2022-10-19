@@ -1,21 +1,23 @@
 C - printf
    A recreation of the C printf library function.
 
-Usage - complie all c files in the repo and include the header file in main.h with any main function
+Usage 
+	complie all .c files in the repo and include the header file in main.h with any main function
 		example main.c
 		
-		"#include 'main.h'
+		#include 'main.h'
 		int main ()
 		{
 			_printf("Hello world");
 
 			return (0);
 		}
-compilation:  $gcc *.c -o demo
-      Hello, world
+compilation: 
+	 $gcc *.c -o demo
+		Hello, world
 
       Description
-The _printf function just like the std, printf writes a formatted output to the stdout. The format to print is specified by the format string.
+The _printf function just like the std librarie's printf writes a formatted output to the stdout. The format to print is specified by the format string.
 Prototype:
 	int _printf(const char *format, ...)
 
@@ -37,12 +39,12 @@ The format string (Hw the subsequents are accessed)
 			iv. Length modifiers
 
 Return value
-_printf, upon successful return, returns the number of characters printed excluding the null byte. If an error occurs, it returns -1
+	_printf, upon successful return, returns the number of characters printed excluding the null byte. If an error occurs, it returns -1
 
 Parameters
-Format -This string contains the text to be written to stdout. It may also contain embedded format tags which are required by values specified by subsequent additional argument.
+	Format -This string contains the text to be written to stdout. It may also contain embedded format tags which are required by values specified by subsequent additional argument.
 
-The format tag prototype is %[flags]
+	The format tag prototype is %[flags]
 
 Authors
    Kamau Maina    
